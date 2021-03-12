@@ -14,6 +14,7 @@
 		36D1B81225FB1FF30090F04A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D1B81025FB1FF30090F04A /* LaunchScreen.storyboard */; };
 		36D1B82225FB251C0090F04A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1B82125FB251C0090F04A /* LoginViewController.swift */; };
 		36D1B82525FB25220090F04A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1B82425FB25220090F04A /* HomeViewController.swift */; };
+		36D1B82825FB32080090F04A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1B82725FB32070090F04A /* CameraViewController.swift */; };
 		C1762B71CFAB9E88F474FF97 /* Pods_igClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE5BF659F0755C7DBD32EDC /* Pods_igClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		36D1B81325FB1FF30090F04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36D1B82125FB251C0090F04A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		36D1B82425FB25220090F04A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		36D1B82725FB32070090F04A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		8BE5BF659F0755C7DBD32EDC /* Pods_igClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_igClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEEFB626C7B38819518EF46 /* Pods-igClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igClone.debug.xcconfig"; path = "Target Support Files/Pods-igClone/Pods-igClone.debug.xcconfig"; sourceTree = "<group>"; };
 		FB63D9F45BEB7AED4EC562A8 /* Pods-igClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igClone.release.xcconfig"; path = "Target Support Files/Pods-igClone/Pods-igClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				36D1B80525FB1FEE0090F04A /* AppDelegate.swift */,
 				36D1B80725FB1FEE0090F04A /* SceneDelegate.swift */,
 				36D1B80B25FB1FEE0090F04A /* Main.storyboard */,
+				36D1B82725FB32070090F04A /* CameraViewController.swift */,
 				36D1B82125FB251C0090F04A /* LoginViewController.swift */,
 				36D1B82425FB25220090F04A /* HomeViewController.swift */,
 				36D1B80E25FB1FF30090F04A /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 			files = (
 				36D1B82225FB251C0090F04A /* LoginViewController.swift in Sources */,
 				36D1B80625FB1FEE0090F04A /* AppDelegate.swift in Sources */,
+				36D1B82825FB32080090F04A /* CameraViewController.swift in Sources */,
 				36D1B80825FB1FEE0090F04A /* SceneDelegate.swift in Sources */,
 				36D1B82525FB25220090F04A /* HomeViewController.swift in Sources */,
 			);
