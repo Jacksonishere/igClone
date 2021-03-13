@@ -16,6 +16,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        tableView.rowHeight = UITableView.automaticDimension
+//        tableView.estimatedRowHeight = 400
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -23,7 +25,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let query = PFQuery(className: "Posts")
         // Retrieve the most recent ones
-        //query.order(byDescending: "createdAt")
+        query.order(byDescending: "createdAt")
 
         // Only retrieve the last ten
         query.limit = 20
