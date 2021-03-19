@@ -44,7 +44,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         //dimension of image we want to scale down to
         let size = CGSize(width: 300, height: 300)
         //scale the image
-        let scaledImage = image.af.imageScaled(to: size)
+        let scaledImage = image.af.imageAspectScaled(toFill: size)
         //set the image
         imageView.image = scaledImage
         
